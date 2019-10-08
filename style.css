@@ -89,6 +89,10 @@ body, html {
     margin: 10px 0;
   }
 
+  .footer {
+    text-align: center;
+  }
+
   /* scroll arrow */
   .container-arrow {
     display: flex;
