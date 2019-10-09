@@ -10,7 +10,7 @@ function getPassCSS(){
         modal.append(paragraph);
     } else if (input.toLowerCase().trim()==="cssrules"){
         btn.setAttribute("data-dismiss","modal");
-        window.open("./CSS-sajt-resenje.zip");
+        window.open("./CSS-sajt-resenje.zip","_self");
     } else {
         paragraph.innerHTML = "Lozinka nije ispravna! Pokušajte ponovo.";
         modal.append(paragraph);
@@ -28,9 +28,9 @@ function getPassJS(){
     if(input===""){
         paragraph.innerHTML = "Polje ne može ostati prazno!";
         modal.append(paragraph);
-    } else if (input.toLowerCase().trim()==="jsisawesome"){
+    } else if (input.toLowerCase().trim()==="jsawesome"){
         btn.setAttribute("data-dismiss","modal");
-        window.open("./JavaScript-resenje.zip");
+        window.open("./JavaScript-resenje.zip","_self");
     } else {
         paragraph.innerHTML = "Lozinka nije ispravna! Pokušajte ponovo.";
         modal.append(paragraph);
@@ -50,7 +50,7 @@ function getPassJQ(){
         modal.append(paragraph);
     } else if (input.toLowerCase().trim()==="jqueryninja"){
         btn.setAttribute("data-dismiss","modal");
-        window.open("./jQuery-resenje.zip");
+        window.open("./jQuery-resenje.zip","_self");
     } else {
         paragraph.innerHTML = "Lozinka nije ispravna! Pokušajte ponovo.";
         modal.append(paragraph);
