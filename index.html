@@ -11,25 +11,29 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Front End Web Development</title>
 </head>
 
 <body>
-    <div class="bgimg-1">
+    <div class="bgimg-1" id="first">
         <div class="caption">
-            <span class="border">Front End Development</span>
+            <span class="border" style="border:none!important;">Front End Development</span>
         </div>
         <div class="container-arrow">
+        <a href="#html-start">
             <div class="chevron"></div>
             <div class="chevron"></div>
             <div class="chevron"></div>
+        </a>
         </div>
+    
     </div>
 
     <!-- HTML deo -->
-    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-        <h3 style="text-align:center;">Domaći zadaci - <span class="heading-html">HTML5</span></h3>
+    <div class="divContainer" style="color: #777;background-color:white;text-align:center;text-align: justify;">
+        <h3 id="html-start" style="text-align:center;">Domaći zadaci - <span class="heading-html">HTML5</span></h3>
         <div class="row">
             <div class="col-sm-4">
                 <div class="card">
@@ -84,7 +88,7 @@
 
     <!-- CSS deo -->
     <div style="position:relative;">
-        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <div class="divContainer" style="color:#ddd;background-color:#282E34;text-align:center;text-align: justify;">
             <h3 style="text-align:center; color:#ddd;">Domaći zadaci - <span class="heading-css">CSS3</span></h3>
             <div class="row">
                 <div class="col-sm-4">
@@ -137,7 +141,7 @@
     </div>
 
     <!-- JS deo -->
-    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <div class="divContainer" style="color: #777;background-color:white;text-align:center;text-align: justify;">
         <h3 style="text-align:center;">Domaći zadaci - <span class="heading-JS">JavaScript</span> / <span
                 class="heading-JS">jQuery</span></h3>
         <div class="row">
@@ -179,7 +183,7 @@
     </div>
     <div class="footer">
         <p>&copy;
-            <script>document.write(new Date().getFullYear());</script>. Sva prava zadržana. Designed by Gordan</p>
+            <script>document.write(new Date().getFullYear());</script>. Sva prava zadržana. Designed by Gordan<a href="#first" class="to-top"><i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i></a></p>
     </div>
 
     <!-- Modal CSS -->
