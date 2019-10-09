@@ -99,11 +99,11 @@ body, html {
     font-size: 0.9em;
   }
 
-  .to-top {
-    float: right;
-    margin-right: 20px;
-    margin-top: 5px;
+  .footer p {
+    margin-bottom: 0;
   }
+
+  
 
   .warning {
     color:red;
@@ -219,5 +219,9 @@ body, html {
 
     .container-arrow {
       display: none;
+    }
+
+    .footer p {
+      margin-bottom: 0;
     }
   }
