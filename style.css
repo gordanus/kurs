@@ -93,6 +93,10 @@ body, html {
     text-align: center;
   }
 
+  .warning {
+    color:red;
+  }
+
   /* scroll arrow */
   .container-arrow {
     display: flex;
