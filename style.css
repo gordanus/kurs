@@ -5,6 +5,9 @@ body, html {
     color: rgb(83, 83, 83);
     scroll-behavior: smooth;
   }
+  .navbar {
+    height:50px;
+  }
   
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;

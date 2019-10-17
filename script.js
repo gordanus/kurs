@@ -58,6 +58,8 @@ function getPassJQ(){
     }  
 }
 
+
+
 // function passwordJS() {
 //     var password = prompt("Unesite lozinku da biste preuzeli fajl:");
 //     if (password.toLowerCase() == "smartpredavac") {
