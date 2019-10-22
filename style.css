@@ -5,8 +5,12 @@ body, html {
     color: rgb(83, 83, 83);
     scroll-behavior: smooth;
   }
-  .navbar {
+  /* .navbar {
     height:50px;
+  } */
+
+  .active {
+    font-weight: 800;
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {

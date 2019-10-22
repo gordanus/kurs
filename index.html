@@ -9,7 +9,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
@@ -27,13 +26,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav w-100 nav-fill">
-                <li class="nav-item">
+                <li class="nav-item" id="NavItemOne">
                     <a class="nav-link" href="#html-start">HTML5 <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="NavItemTwo">
                     <a class="nav-link" href="#css-start">CSS3</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id="NavItemThree">
                     <a class="nav-link" href="#js-start">JavaScript/jQuery</a>
                 </li>
             </ul>
@@ -277,22 +276,7 @@
         </div>
     </div>
 
-    <script>
-        var top1 = $('#html-start').offset().top;
-        var top2 = $('#css-start').offset().top - 60;
-        var top3 = $('#js-start').offset().top - 60;
-
-        $(document).scroll(function () {
-            var scrollPos = $(document).scrollTop();
-            if (scrollPos >= top1 && scrollPos < top2) {
-                $('#myNav').addClass("navbar-dark bg-dark", 1000).removeClass("navbar-light bg-light", 1000);
-            } else if (scrollPos >= top2 && scrollPos < top3) {
-                $('#myNav').addClass("navbar-light bg-light").removeClass("navbar-dark bg-dark");
-            } else if (scrollPos >= top3) {
-                $('#myNav').addClass("navbar-dark bg-dark").removeClass("navbar-light bg-light");
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
